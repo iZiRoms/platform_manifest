@@ -8,6 +8,10 @@
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr2" />
 
+  <remote  name="iZi"
+           fetch="https://github.com/iZiRoms"
+           revision="refs/heads/n-mr2" />
+
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org"/>
@@ -545,10 +549,16 @@
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" />
   <project name="toolchain/binutils" />
 
+  <!-- Clean not used repos -->
+  <include name="manifests/clean.xml"/>
+
   <!-- AOSP-CAF additions -->
   <include name="manifests/aospcaf.xml"/>
 
   <!-- LAOS additions -->
   <include name="manifests/laos.xml"/>
+
+  <!-- iZi additions -->
+  <include name="manifests/iZi.xml"/>
 
 </manifest>

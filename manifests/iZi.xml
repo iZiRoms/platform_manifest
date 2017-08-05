@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="platform_build" path="build" remote="iZi" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="platform_frameworks_base" path="frameworks/base" remote="iZi" />
+  <project name="platform_packages_apps_Calendar" path="packages/apps/Calendar" remote="iZi" />
+  <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="iZi" />
+  <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="iZi" />
+  <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="iZi" />
+  <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="iZi" />
+  <project name="platform_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="iZi" />
+  <project name="platform_packages_apps_Phonograph" path="packages/apps/Phonograph" remote="iZi" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="iZi" />
+  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" remote="iZi" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="iZi" />
+  <project name="platform_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" remote="iZi" />
+
+</manifest> 
